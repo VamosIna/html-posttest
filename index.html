@@ -1,11 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<title>POST TEST - HTML YOPS</title>
+	<link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
+	
+    <div class="wrapper">
+        <div class="registration_form">
+            <div class="title">
+                Registration Form
+            </div>
     
-</body>
-</html>
+            <form>
+                <div class="form_wrap">
+                    
+                        <div class="input_wrap">
+                            <label for="fname">Nama Lengkap</label>
+                            <input type="text" id="fname">
+                        </div>
+                        <div class="input_wrap">
+                            <label for="lname">Nama Panggilan</label>
+                            <input type="text" id="lname">
+                        </div>
+                    
+                    <div class="input_wrap">
+                        <label>Gender</label>
+                        <ul>
+                            <li>
+                                <label class="radio_wrap">
+                                    <input type="radio" name="gender" value="male" class="input_radio" checked>
+                                    <span>Male</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="radio_wrap">
+                                    <input type="radio" name="gender" value="female" class="input_radio">
+                                    <span>Female</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="select_warp">
+                        <label >Agama</label>
+                        <select class="select_d"> 
+                            <option value="volvo">Hindu</option>
+                            <option value="Islam">Islam</option>
+                            <option value="Budha">Budha</option>
+                            <option value="Kristen">Kristen</option>
+                            <option value="Katholik">Katholik</option>
+                        </select>
+
+                    </div>
+                    <div class="input_wrap">
+                        <label for="city">Kewarganegaraan</label>
+                        <input type="text" id="city">
+                    </div>
+                    <div class="input_wrap">
+                        <label for="anak">Anak Ke</label>
+                        <input type="text" id="anakke">
+                    </div>
+                    <div class="input_wrap">
+                        <label for="Jumlah Saudara">Jumlah Saudara </label>
+                        <input type="text" id="js">
+                    </div>
+                    <div class="input_wrap">
+                        <label>Status</label>
+                        <ul>
+                            <li>
+                                <label class="radio_wrap">
+                                    <input type="radio" name="Kaw" value="kaw" class="input_radio" >
+                                    <span>Kawin</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="radio_wrap">
+                                    <input type="radio" name="blmkaw" value="Belum" class="input_radio">
+                                    <span>Belum Kawin</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="input_wrap">
+                        <label for="SIM">Jenis SIM</label>
+                        <input type="text" id="Sim">
+                    </div>
+
+                    <div class="input_wrap">
+                        <label for="KTP">No. KTP</label>
+                        <input type="text" id="ktp">
+                    </div>
+                    <div class="input_wrap">
+                        <label for="HP">No. telpon</label>
+                        <input type="text" id="hp">
+                    </div>
+
+                    <div class="input_wrap">
+                        <label for="SIM">Alamat Lengkap</label>
+                        <textarea ></textarea>
+                    </div>
+                    <div class="input_wrap">
+                        <label for="Photo">Upload Foto</label>
+                        <input type="file" id="foto">
+                    </div>
+                    <div class="input_wrap">
+                        <input type="submit" value="Register Now" class="submit_btn">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    </body>
+    </html>
