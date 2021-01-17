@@ -13,22 +13,23 @@
 
 
 body{
-  background : url('img/inspora_hero.svg') no-repeat;
-  background-position: 100vh;
+  background : url('img/undraw_fill_forms_yltj.svg') no-repeat ;
+  background-position: center;
   background-size: auto;
-  height: 90vh; /*VH = virtual Height */
+  background-color:#ececec ;
+  height: 100vh; /*VH = virtual Height */
 }
  
 .wrapper{
   
   min-height: 100vh;
 	display: flex;
-	justify-content: center;
+	justify-content: left;
 	align-items: center;
 }
-
 .registration_form{
-	background: transparent;
+  
+ background-color: white;
 	padding: 25px;
 	border-radius: 5px;
   width: 400px;
@@ -149,4 +150,11 @@ body{
   padding: 10px;
   color: #c5ecfd;
   width: 100%;
+}
+.form_wrap  input[type="file"]{
+	width: 100%;
+	border-radius: 3px;
+	border: 1px solid #ebd0ce;
+	padding: 10px;
+	outline: none;
 }
